@@ -1,0 +1,75 @@
+---
+title: My fantastic presentation
+subtitle: My subtitle
+author: My name
+date: 2026-04-22
+date-format: full
+format: 
+  revealjs:
+    include-in-header:
+      - text: <link rel = "shortcut icon" href = "ucsf_favicon.svg" />
+    theme: ucsf.scss
+    embed-resources: false
+    slide_level: 2
+    slide-number: true
+    title-slide-attributes:
+      data-background-color: '#052049'
+      data-background-image: 'ucsf_logo.png'
+      data-background-size: '10%'       
+      data-background-position: 'top 3% left 1%' 
+---
+
+# Introduction
+
+## Examples of basic Markdown
+
+- this is **bold**
+- this is *italic*
+- this is `typewriter font`
+- this is a [link](https://ucsf.edu)
+
+## Example of a footnote
+
+- this is a reveal.js theme for UCSF
+
+::: aside
+UCSF: University of California, San Francisco.
+:::
+
+## Example of an image
+
+![To care for the future, we must safeguard research.](example_image.jpg){height=400 fig-align='center'}
+
+## Example of a block quote
+
+- the I in PRIDE is:
+
+> Integrity: To be honest, trustworthy and ethical, always doing the right thing, without compromising the truth, and being fair and sincere.
+
+# Methods
+
+## Some points
+
+- point 1
+- point 2
+- point 3
+
+# What is Quarto?
+
+## Example of a warning
+
+::: callout-warning
+Dragging things around in PowerPoint is tedious, and can distract you from the goal of improving your content.
+:::
+
+## Example of a tip
+
+::: callout-tip
+Consider using Quarto to make slides. 😊 Writing in Markdown may help you focus on improving your content.
+:::
+
+## Resources
+
+- the [Quarto guide](https://quarto.org/docs/guide/)
+- Quarto's [guide to making slides with reveal.js](https://quarto.org/docs/presentations/revealjs/)
+- UCSF Library's [Data Science and Open Scholarship Team](https://www.library.ucsf.edu/ask-an-expert/dsos-team/)
