@@ -34,7 +34,7 @@ The theme itself is fully contained in `ucsf.scss`.
 
 # Optional settings
 
-- `embed-resources`: change this to `false` if you intend to share the HTML slide deck
+- `embed-resources`: change this to `true` if you intend to share the HTML slide deck
 - `data-background-image`: optionally, use a more logo that is specific to your school, department, or project
 
 # Further reading
