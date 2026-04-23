@@ -158,6 +158,16 @@ $code-block-border-color: #93a1a1 !default;
 
 /********* tables *********/
 
+/*-- remove margins if the list is quoted --*/
+.reveal blockquote ul {
+	margin-bottom: 0 !important;
+}
+.reveal blockquote ul li {
+	margin-top: 0 !important;
+}
+
+/********* tables *********/
+
 /*-- add padding to tables --*/
 .reveal table {
 	margin-top: 1em;
