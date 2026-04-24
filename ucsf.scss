@@ -46,7 +46,7 @@ $code-block-border-color: #93a1a1 !default;
 
 /*-- add underline to links --*/
 .reveal a, a:hover {
-	color: inherit;
+	color: inherit !important;
 	text-decoration: underline;
 	text-decoration-thickness: 3px;
 }
@@ -137,13 +137,33 @@ $code-block-border-color: #93a1a1 !default;
 	color: inherit;
 }
 
-/********* focus *********/
+/********* custom fences *********/
 
-/*-- define focused class --*/
-.reveal .focus {
+/*-- define custom fence for centered text --*/
+.reveal .centered {
   text-align: center;
   width: 100%;       
   margin: auto;      
+}
+
+/*-- define custom fence for block quote with smaller text --*/
+.reveal .long_quote {
+	color: $ucsf-text;
+	font-size: 0.7em;
+	padding-top: 0;
+	padding-left: 1em;
+	padding-bottom: 0;
+	border-left: 4px solid #acb8bc;
+}
+
+/*-- define custom fence for block quote with even smaller text --*/
+.reveal .longer_quote {
+	color: $ucsf-text;
+	font-size: 0.6em;
+	padding-top: 0;
+	padding-left: 1em;
+	padding-bottom: 0;
+	border-left: 4px solid #acb8bc;
 }
 
 /********* images *********/
