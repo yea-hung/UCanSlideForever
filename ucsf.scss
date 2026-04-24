@@ -85,6 +85,20 @@ $code-block-border-color: #93a1a1 !default;
     text-align: center;
 }
 
+/********* aside *********/
+
+/*-- change color of links in aside and allow underline --*/
+.reveal aside a,
+.reveal aside a:hover {
+	color: inherit;
+	text-decoration: underline;
+}
+
+/*-- change color of code in aside --*/
+.reveal aside code {
+	color: inherit;
+}
+
 /********* block quotes *********/
 
 /*-- change blockquote font color and remove padding --*/
@@ -155,6 +169,14 @@ $code-block-border-color: #93a1a1 !default;
 	text-align: center;
 }
 
+/********* slide numbers *********/
+
+/*-- remove underline from slide numbers --*/
+.reveal div.slide-number a,
+.reveal div.slide-number a:hover {
+	text-decoration: none;
+}
+
 /********* tables *********/
 
 /*-- remove margins if the list is quoted --*/
@@ -170,20 +192,6 @@ $code-block-border-color: #93a1a1 !default;
 /*-- add padding to tables --*/
 .reveal table {
 	margin-top: 1em;
-}
-
-/********* aside *********/
-
-/*-- change color of links in aside and allow underline --*/
-.reveal aside a,
-.reveal aside a:hover {
-	color: inherit;
-	text-decoration: underline;
-}
-
-/*-- change color of code in aside --*/
-.reveal aside code {
-	color: inherit;
 }
 
 /********* simplemenu extension *********/
