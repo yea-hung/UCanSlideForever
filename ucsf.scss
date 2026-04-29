@@ -99,6 +99,18 @@ $code-block-border-color: #93a1a1 !default;
 	color: inherit;
 }
 
+/*-- reposition aside in print mode --*/
+.print-pdf .reveal .slides section {
+    position: relative !important;
+}
+.print-pdf .reveal aside {
+    position: absolute !important;
+    bottom: 1em !important;
+    left: 0 !important;
+    right: 0 !important;
+	padding-bottom: 1em;
+}
+
 /********* block quotes *********/
 
 /*-- change blockquote font color and remove padding --*/
