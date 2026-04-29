@@ -1,14 +1,14 @@
-# Motivation
+## Motivation
 
 Dragging items around in PowerPoint, or clicking around, is tedious and can distract from the ultimate goal of producing good content. 😢
 
 Using [Markdown](https://en.wikipedia.org/wiki/Markdown) to create content may help minimize distractions, resulting in better content. 🥳
 
-# Overview
+## Overview
 
 This is a UCSF-style theme for [Quarto-with-reveal.js presentations](https://quarto.org/docs/presentations/revealjs/). This should be mostly compatible with accessibility guidelines. Please file a GitHub issue or email me if you belive it is not, or have any other suggestions. 😊
 
-# Use
+## Use
 
 You'll need [RStudio](https://posit.co/download/rstudio-desktop), [Positron](https://positron.posit.co/download.html), or VS Code.
 
@@ -25,19 +25,19 @@ See `demo.qmd` for a demonstration.
 
 The theme itself is fully contained in `ucsf.scss`. 
 
-# Settings
+## Settings
 
 - `title`: the title
 - `subtitle`: the subtitle (delete this line if you don't have a subtitle)
 - `author`: the authors
 - `date`: the date in YYYY-MM-DD format
 
-# Optional settings
+## Optional settings
 
 - `embed-resources`: change this to `true` if you intend to share the HTML slide deck
 - `data-background-image`: optionally, use a more logo that is specific to your school, department, or project
 
-# Further reading
+## Further reading
 
 - [Quarto guide](https://quarto.org/docs/guide/)
 - Quarto guide to [using Quarto with reveal.js](https://quarto.org/docs/presentations/revealjs/)
