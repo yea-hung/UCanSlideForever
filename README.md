@@ -6,11 +6,11 @@ Using [Markdown](https://en.wikipedia.org/wiki/Markdown) to create content may h
 
 ## Overview
 
-This is a UCSF-style theme for [Quarto-with-reveal.js presentations](https://quarto.org/docs/presentations/revealjs/). This should be mostly compatible with accessibility guidelines. Please file a GitHub issue or email me if you belive it is not, or have any other suggestions. 😊
+This is a UCSF-style theme for [Quarto-with-reveal.js presentations](https://quarto.org/docs/presentations/revealjs/). This should be mostly compatible with accessibility guidelines. Please file a GitHub issue or email me if you believe it is not, or have any other suggestions. 😊
 
 ## Use
 
-You'll need [RStudio](https://posit.co/download/rstudio-desktop), [Positron](https://positron.posit.co/download.html), or VS Code.
+You'll need [RStudio](https://posit.co/download/rstudio-desktop), [Positron](https://positron.posit.co/download.html), or [VS Code](https://code.visualstudio.com/download).
 
 For any one slide deck, you'll always have two files:
 
@@ -39,5 +39,5 @@ The theme itself is fully contained in `ucsf.scss`.
 
 ## Further reading
 
-- [Quarto guide](https://quarto.org/docs/guide/)
-- Quarto guide to [using Quarto with reveal.js](https://quarto.org/docs/presentations/revealjs/)
+- [guide to Quarto](https://quarto.org/docs/guide/)
+- [guide to using Quarto with reveal.js](https://quarto.org/docs/presentations/revealjs/)
